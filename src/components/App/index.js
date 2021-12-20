@@ -1,6 +1,7 @@
 import React              from 'react';
 import { ThemeProvider }  from 'styled-components/macro';
 import theme              from './../../utils/theme';
+import cards              from './../../utils/cards';
 import GlobalStyles       from './../../GlobalStyles';
 import * as Styled        from './styles';
 import Header             from '../Header';
@@ -11,7 +12,7 @@ function App(){
       <GlobalStyles />
       <Header />
       <Styled.Container>
-        <h1>App</h1>
+        {cards.map(card => <p>{card.title}</p>)}
       </Styled.Container>
     </ThemeProvider>
   );
