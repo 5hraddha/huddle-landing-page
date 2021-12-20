@@ -10,4 +10,8 @@ export const Container = styled.div`
   padding: 0 60px;
   width: 100%;
   max-width: 1440px;
+
+  @media (max-width: ${({ theme }) => theme.layouts.mobile }) {
+    padding: 0 40px;
+  }
 `

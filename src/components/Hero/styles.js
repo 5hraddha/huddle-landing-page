@@ -31,7 +31,7 @@ export const Hero = styled.div`
     width: 50%;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: ${({ theme }) => theme.layouts.desktop }) {
     & > div {
       margin: 0 60px 0 0;
     }
@@ -41,13 +41,23 @@ export const Hero = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${({ theme }) => theme.layouts.tablet }) {
+    flex-direction: column;
+
     & > div {
-      margin: 0 40px 0 0;
+      margin: 0;
+      text-align: center;
     }
 
+    img {
+      margin: 40px 0 30px 0;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: ${({ theme }) => theme.layouts.mobile }) {
     h1 {
-      font-size: 25px;
+      font-size: 23px;
     }
   }
 `;

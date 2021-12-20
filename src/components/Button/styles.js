@@ -18,4 +18,8 @@ export const Button = styled.button`
     opacity: .9;
     transform: scale(.98);
   }
+
+  @media (max-width: ${({ theme }) => theme.layouts.mobile }) {
+    font-size: 15px;
+  }
 `;

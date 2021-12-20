@@ -19,9 +19,9 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1.5;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${({ theme }) => theme.layouts.mobile }) {
     body {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
 `;
