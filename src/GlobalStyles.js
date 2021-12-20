@@ -16,6 +16,13 @@ const GlobalStyles = createGlobalStyle`
     color: hsl(192, 100%, 9%);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
   }
 `;
 

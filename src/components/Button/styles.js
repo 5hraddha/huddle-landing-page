@@ -3,6 +3,7 @@ import styled from "styled-components/macro";
 export const Button = styled.button`
   margin: 0;
   padding: 15px 60px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
   background-color: ${({ bgColor }) => bgColor || 'hsl(100, 100%, 100%)'};
