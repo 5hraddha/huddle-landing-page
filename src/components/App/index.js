@@ -5,6 +5,7 @@ import cards              from './../../utils/cards';
 import GlobalStyles       from './../../GlobalStyles';
 import * as Styled        from './styles';
 import Header             from '../Header';
+import Card               from '../Card';
 
 function App(){
   return (
@@ -12,7 +13,8 @@ function App(){
       <GlobalStyles />
       <Header />
       <Styled.Container>
-        {cards.map(card => <p>{card.title}</p>)}
+        {cards.map(card =>
+          <Card card={card} key={card.id} />)}
       </Styled.Container>
     </ThemeProvider>
   );

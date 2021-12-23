@@ -1,8 +1,18 @@
-import React from 'react';
+import React        from 'react';
+import * as Styled  from './styles';
 
-function Card(){
+function Card({card: {id, title, body, image}}){
+  const imageFile = require(`../../images/${image}`);
   return (
-    <div>Card</div>
+    <Styled.Card direction={(id % 2 === 0) ? 'row-reverse' : 'row'}>
+      <div>
+        <h2>{title}</h2>
+        <p>{body}</p>
+      </div>
+      <div>
+        <img src={imageFile} alt={title} />
+      </div>
+    </Styled.Card>
   );
 }
 
