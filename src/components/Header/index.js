@@ -11,7 +11,7 @@ function Header() {
     <Styled.Header>
       <Styled.Container>
         <Nav>
-          <Logo src={HeaderLogo} alt='page logo having Huddle written in it' />
+          <Logo src={HeaderLogo} alt="page logo having Huddle written in it" />
           <Button>Try It Free</Button>
         </Nav>
         <Hero />

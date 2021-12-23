@@ -6,6 +6,7 @@ import GlobalStyles       from './../../GlobalStyles';
 import * as Styled        from './styles';
 import Header             from '../Header';
 import Card               from '../Card';
+import Footer             from '../Footer';
 
 function App(){
   return (
@@ -16,6 +17,7 @@ function App(){
         {cards.map(card =>
           <Card card={card} key={card.id} />)}
       </Styled.Container>
+      <Footer />
     </ThemeProvider>
   );
 }
