@@ -8,8 +8,10 @@ This project is a Huddle landing page with alternating feature blocks challenge 
 1. HTML (Hyper Text Markup Language)
 2. CSS (Cascading Style Sheets)
 3. React.js
+4. React Styled Components
 
 ## Components Hierarchy
+![react-components-hierarchy](src/images/huddle-landing-page.png)
 
 ## Live Demo
 Check the live page [here](https://5hraddha.github.io/huddle-landing-page/)
