@@ -9,21 +9,23 @@ import * as Styled from './styles';
 function SocialIcons() {
   return (
     <Styled.SocialIcons>
-      <li>
-        <a href='https://twitter.com'>
-          <FaTwitter />
-        </a>
-      </li>
-      <li>
-        <a href='https://facebook.com'>
-          <FaFacebook />
-        </a>
-      </li>
-      <li>
-        <a href='https://linkedin.com'>
-          <FaLinkedin />
-        </a>
-      </li>
+      <ul>
+        <li>
+          <a href="https://twitter.com" aria-label="Twitter">
+            <FaTwitter />
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com" aria-label="Facebook">
+            <FaFacebook />
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" aria-label="LinkedIn">
+            <FaLinkedin />
+          </a>
+        </li>
+      </ul>
     </Styled.SocialIcons>
   );
 }

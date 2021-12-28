@@ -3,12 +3,16 @@ import styled from "styled-components/macro";
 export const SocialIcons = styled.div`
   margin: 40px 0 0;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  & > li {
+  & > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul > li {
     list-style: none;
+
     & > a {
       margin: 0 10px 0 0;
       padding: 0;
