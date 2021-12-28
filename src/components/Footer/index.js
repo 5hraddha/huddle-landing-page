@@ -53,7 +53,7 @@ function Footer(){
           </ul>
           <SocialIcons />
         </Styled.Flex>
-        <p>&copy;Copyright 2021 Huddle. All rights reserved</p>
+        <p>&copy; Copyright 2021 Huddle. All rights reserved</p>
       </Styled.Container>
     </Styled.Footer>
   );

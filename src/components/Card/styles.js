@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled     from "styled-components/macro";
 
 export const Card = styled.article`
   margin: 40px 0;
@@ -40,6 +40,23 @@ export const Card = styled.article`
   }
 
   @media (max-width: ${({theme}) => theme.layouts.tablet}) {
-    flex-direction: column;
+    padding: 60px 50px;
+    flex-direction: column-reverse;
+
+    h2 {
+      padding: 20px 0 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: ${({theme}) => theme.layouts.mobile}) {
+    padding: 40px;
+    h2 {
+      font-size: 20px;
+    }
   }
 `;

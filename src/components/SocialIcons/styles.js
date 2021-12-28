@@ -30,4 +30,8 @@ export const SocialIcons = styled.div`
       color: hsl(322, 100%, 66%);
     }
   }
+
+  @media (max-width: ${({theme}) => theme.layouts.tablet}) {
+    align-self: center;
+  }
 `;

@@ -19,8 +19,15 @@ export const Container = styled.div`
     align-self: flex-end;
   }
 
+  @media (max-width: ${({theme}) => theme.layouts.tablet}) {
+    & > p {
+      padding: 20px 0 0;
+      align-self: center;
+    }
+  }
+
   @media (max-width: ${({ theme }) => theme.layouts.mobile }) {
-    padding: 0 40px;
+    padding: 0 20px;
   }
 `;
 
@@ -59,6 +66,14 @@ export const Flex = styled.div`
         width: 20px;
       }
       }
+    }
+  }
+
+  @media (max-width: ${({theme}) => theme.layouts.tablet}) {
+    flex-direction: column;
+
+    & > ul {
+      margin: 5px 0 0;
     }
   }
 `;
