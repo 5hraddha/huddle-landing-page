@@ -1,6 +1,6 @@
 import styled     from "styled-components/macro";
 
-export const Card = styled.article`
+export const Card = styled.section`
   margin: 40px 0;
   padding: 60px 40px 60px 80px;
   display: flex;
