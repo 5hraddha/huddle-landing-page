@@ -5,7 +5,7 @@ export const Card = styled.article`
   padding: 60px 40px 60px 80px;
   display: flex;
   gap: 10%;
-  flex-direction: ${({direction}) => direction} ;
+  flex-direction: ${({rowReverse}) => (rowReverse) ? 'row-reverse' : 'row'} ;
   align-items: center;
   background: ${({theme}) => theme.colors.body};
   border-radius: 15px;

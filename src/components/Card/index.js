@@ -4,7 +4,7 @@ import * as Styled  from './styles';
 function Card({card: {id, title, body, image}}){
   const imageFile = require(`../../images/${image}`);
   return (
-    <Styled.Card direction={(id % 2 === 0) ? `row-reverse` : `row`} >
+    <Styled.Card rowReverse={(id % 2 === 0) ? true : false} >
       <div>
         <h2>{title}</h2>
         <p>{body}</p>
