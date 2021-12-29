@@ -7,7 +7,7 @@ This project is a Huddle landing page with alternating feature blocks challenge 
 **The technologies that have been used are:**
 1. HTML (Hyper Text Markup Language)
 2. CSS (Cascading Style Sheets)
-3. React.js
+3. ReactJS
 4. React Styled Components
 
 ## Components Hierarchy
