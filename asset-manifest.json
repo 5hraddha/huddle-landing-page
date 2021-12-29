@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/huddle-landing-page/static/js/main.26d325ea.js",
+    "main.js": "/huddle-landing-page/static/js/main.bc38f125.js",
     "static/media/illustration-flowing-conversation.svg": "/huddle-landing-page/static/media/illustration-flowing-conversation.447b9b47aef8c266f047.svg",
     "static/media/huddle-landing-page.png": "/huddle-landing-page/static/media/huddle-landing-page.ca7d9a1df4a2caf4067a.png",
     "static/media/illustration-your-users.svg": "/huddle-landing-page/static/media/illustration-your-users.c07ebfaafd557ff00fa4.svg",
@@ -14,9 +14,9 @@
     "static/media/icon-phone.svg": "/huddle-landing-page/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
     "static/media/icon-location.svg": "/huddle-landing-page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
     "static/media/icon-email.svg": "/huddle-landing-page/static/media/icon-email.19ab894b09784943bec7e08b3e1344a3.svg",
-    "main.26d325ea.js.map": "/huddle-landing-page/static/js/main.26d325ea.js.map"
+    "main.bc38f125.js.map": "/huddle-landing-page/static/js/main.bc38f125.js.map"
   },
   "entrypoints": [
-    "static/js/main.26d325ea.js"
+    "static/js/main.bc38f125.js"
   ]
 }
