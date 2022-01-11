@@ -3,6 +3,12 @@ import * as Styled  from './styles';
 import Button       from '../Button';
 import HeroImage    from './../../images/illustration-mockups.svg';
 
+/**
+ * The **Hero** component representing the Hero section of the webpage
+ *
+ * @version 1.0.0
+ * @author Shraddha
+ */
 function Hero(){
   return (
     <Styled.Hero>

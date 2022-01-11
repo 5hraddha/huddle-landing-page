@@ -10,6 +10,13 @@ import Card               from '../Card';
 import CallToAction       from '../CallToAction';
 import Footer             from '../Footer';
 
+/**
+ * The main React **App** component of the Huddle landing page.
+ *
+ * @version 1.0.0
+ * @author **Shraddha**
+ */
+
 function App(){
   return (
     <ThemeProvider theme={theme}>
