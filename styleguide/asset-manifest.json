@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/huddle-landing-page/build/bundle.2774525a.js",
+    "illustration-flowing-conversation.svg": "/huddle-landing-page/447b9b47aef8c266f047.svg",
+    "huddle-landing-page.png": "/huddle-landing-page/ca7d9a1df4a2caf4067a.png",
+    "huddle-landing-page-screenshot.jpeg": "/huddle-landing-page/9a91569a4519b3e69aee.jpeg",
+    "illustration-your-users.svg": "/huddle-landing-page/c07ebfaafd557ff00fa4.svg",
+    "illustration-grow-together.svg": "/huddle-landing-page/3c29212c7a9ccd6cccf0.svg",
+    "logo.svg": "/huddle-landing-page/3c5a854404daac9e6820.svg",
+    "logo_white.svg": "/huddle-landing-page/be2e01a244e84e6d9045.svg",
+    "static/media/logo.svg": "/huddle-landing-page/static/media/logo.3c5a854404daac9e68209a04cf4dfbbe.svg",
+    "static/media/logo_white.svg": "/huddle-landing-page/static/media/logo_white.be2e01a244e84e6d90451fe1b52e1fd5.svg",
+    "illustration-mockups.svg": "/huddle-landing-page/7b6cb4d9270f53c0f45b.svg",
+    "static/media/illustration-mockups.svg": "/huddle-landing-page/static/media/illustration-mockups.7b6cb4d9270f53c0f45bbf842e8ce077.svg",
+    "bg-hero-desktop.svg": "/huddle-landing-page/6f3681282137997079c4.svg",
+    "bg-hero-mobile.svg": "/huddle-landing-page/fa71e99ae112550574bc.svg",
+    "icon-phone.svg": "/huddle-landing-page/43c05d1a510cada2b8f3.svg",
+    "static/media/icon-phone.svg": "/huddle-landing-page/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
+    "index.html": "/huddle-landing-page/index.html",
+    "icon-location.svg": "/huddle-landing-page/a681f02d94e561498fa0.svg",
+    "static/media/icon-location.svg": "/huddle-landing-page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
+    "icon-email.svg": "/huddle-landing-page/19ab894b09784943bec7.svg",
+    "static/media/icon-email.svg": "/huddle-landing-page/static/media/icon-email.19ab894b09784943bec7e08b3e1344a3.svg"
+  },
+  "entrypoints": [
+    "build/bundle.2774525a.js"
+  ]
+}
