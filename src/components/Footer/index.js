@@ -7,6 +7,12 @@ import LocationIcon from '../../images/icon-location.svg';
 import PhoneIcon    from '../../images/icon-phone.svg';
 import EmailIcon    from '../../images/icon-email.svg';
 
+/**
+ * The **Footer** component representing the footer of the webpage
+ *
+ * @version 1.0.0
+ * @author Shraddha
+ */
 function Footer(){
   return (
     <Styled.Footer>

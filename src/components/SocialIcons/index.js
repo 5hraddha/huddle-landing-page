@@ -6,6 +6,12 @@ import {
 } from 'react-icons/fa';
 import * as Styled from './styles';
 
+/**
+ * The *SocialIcons* component representing the list of different social icons in the webpage
+ *
+ * @version 1.0.0
+ * @author Shraddha
+ */
 function SocialIcons() {
   return (
     <Styled.SocialIcons>
